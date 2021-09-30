@@ -129,8 +129,8 @@ function atualizaAreaJogo(){
  minVazio = 50;
  maxVazio = 200;
  vazio = Math.floor(Math.random()*(maxVazio-minVazio+1)+minVazio);
- obstaculo.push(new componente('green',x,0,altura,10));
- obstaculo.push(new componente('green',x,altura + vazio,x - altura - vazio,10));
+ obstaculo.push(new componente('#69461b',x,0,altura,10));
+ obstaculo.push(new componente('#69461b',x,altura + vazio,x - altura - vazio,10));
  }
  
  for(i = 0; i < obstaculo.length; i++){
@@ -162,4 +162,8 @@ function esquerda(){
 function parar(){
  personagemObj.velocidadeX = 0;
  personagemObj.velocidadeY = 0;
+}
+
+function reload() {
+location.reload();
 }
