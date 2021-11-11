@@ -1,8 +1,10 @@
 /**/
 
+body{
+  background-color: #222226;
+}
+
 canvas{
-  background-image: url('https://st.depositphotos.com/3623121/5045/v/600/depositphotos_50452863-stock-illustration-jungle-with-red-flowers.jpg');
-  background-size: 380px 100%;
   width: 100%;
 }
 
@@ -13,4 +15,9 @@ button{
 button svg{
   width: 40px;
   height: 40px;
+}
+
+.container{
+  background-color: #19191c;
+  padding: 8px;
 }
